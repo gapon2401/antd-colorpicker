@@ -1,6 +1,6 @@
 {
   "name": "antd-colorpicker",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Colorpicker field for Ant Design form",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -16,8 +16,7 @@
     "test": "jest --config jestconfig.json",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint"
+    "prepublishOnly": "npm test && npm run lint"
   },
   "peerDependencies": {
     "react": ">=16"
