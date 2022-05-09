@@ -1,6 +1,6 @@
 {
   "name": "antd-colorpicker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Colorpicker field for Ant Design form",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -27,7 +27,11 @@
     "LICENSE",
     "README.md"
   ],
-  "keywords": ["react", "antd", "colorpicker"],
+  "keywords": [
+    "react",
+    "antd",
+    "colorpicker"
+  ],
   "author": "Igor Gaponov (gapon2401)",
   "license": "MIT",
   "dependencies": {

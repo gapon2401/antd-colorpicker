@@ -177,3 +177,6 @@ const App = () => {
 export default App
 
 ```
+
+[npm-url]: https://www.npmjs.com/package/antd-colorpicker
+[npm-image]: https://img.shields.io/npm/v/antd-colorpicker
