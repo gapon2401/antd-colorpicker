@@ -1,12 +1,15 @@
-<h1>antd-colorpicker</h1>
+# antd-colorpicker
 
-[![NPM version][npm-image]][npm-url]
+[![NPM version] [npm-image]][npm-url]
+[![Build] [github-build]][github-build-url]
+![npm-typescript]
+[![License] [github-license]][github-license-url]
 
 Package helps you to add colorpicker to [Antd Design](https://www.npmjs.com/package/antd) form.
 
 [React-color](https://www.npmjs.com/package/react-color) is used as colorpicker.
 
-[**Live Demo**]()
+[//]: # ([**Live Demo**]&#40;&#41;)
 
 ## Installation:
 
@@ -180,3 +183,8 @@ export default App
 
 [npm-url]: https://www.npmjs.com/package/antd-colorpicker
 [npm-image]: https://img.shields.io/npm/v/antd-colorpicker
+[github-license]: https://img.shields.io/github/license/gapon2401/antd-colorpicker
+[github-license-url]: https://github.com/gapon2401/antd-colorpicker/blob/master/LICENSE
+[github-build]: https://github.com/gapon2401/antd-colorpicker/actions/workflows/publish.yml/badge.svg
+[github-build-url]: https://github.com/gapon2401/antd-colorpicker/actions/workflows/publish.yml
+[npm-typescript]: https://img.shields.io/npm/types/antd-colorpicker
