@@ -1,9 +1,9 @@
 # antd-colorpicker
 
-[![NPM version] [npm-image]][npm-url]
-[![Build] [github-build]][github-build-url]
+[![NPM version][npm-image]][npm-url]
+[![Build][github-build]][github-build-url]
 ![npm-typescript]
-[![License] [github-license]][github-license-url]
+[![License][github-license]][github-license-url]
 
 Package helps you to add colorpicker to [Antd Design](https://www.npmjs.com/package/antd) form.
 
