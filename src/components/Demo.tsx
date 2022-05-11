@@ -14,7 +14,7 @@ type InitialValues = {
   [key: string]: ColorPickerValue
 }
 
-const App = () => {
+const Demo: () => JSX.Element = () => {
   const handleOnFinish = (values: any) => {
     console.log(values)
   }
@@ -45,9 +45,7 @@ const App = () => {
   })
 
   return (
-    <div
-      style={{ maxWidth: '500px', margin: '20px auto', paddingBottom: '50px' }}
-    >
+    <div style={{ maxWidth: '500px', margin: '20px auto' }}>
       <Form
         labelCol={{ span: 7 }}
         wrapperCol={{ span: 13 }}
@@ -88,9 +86,12 @@ const App = () => {
             <Colorpicker picker={pickerType} />
           </Form.Item>
         ))}
-        <Form.Item wrapperCol={{ span: 20 }}>
-          <Row>
-            <Col span={13}>
+        <Form.Item
+          wrapperCol={{ span: 20 }}
+          style={{ justifyContent: 'center', marginTop: '50px' }}
+        >
+          <Row style={{ justifyContent: 'center' }}>
+            <Col>
               <Button type='primary' htmlType='submit'>
                 Show values in console
               </Button>
@@ -102,4 +103,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Demo
