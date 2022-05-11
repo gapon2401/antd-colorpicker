@@ -9,7 +9,7 @@ Package helps you to add colorpicker to [Antd Design](https://www.npmjs.com/pack
 
 [React-color](https://www.npmjs.com/package/react-color) is used as colorpicker.
 
-[//]: # ([**Live Demo**]&#40;&#41;)
+[**Live Demo**](https://gapon2401.github.io/antd-colorpicker/)
 
 ## Installation:
 

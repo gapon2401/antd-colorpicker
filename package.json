@@ -1,6 +1,6 @@
 {
   "name": "antd-colorpicker",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Colorpicker field for Ant Design form",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
